@@ -1,8 +1,3 @@
-
-/* =========================================================
-   LIFE RPG — DESIGN SYSTEM
-   ========================================================= */
-
 :root {
   /* Typography */
   --font-family: Inter, system-ui, sans-serif;
@@ -54,15 +49,15 @@
   --space-9: 48px;
 
   /* Global layout spacing */
-  --page-padding-x: 24px;
+  --page-padding-x: 14px;
   --page-padding-y: 40px;
   --page-max-width: 1100px;
 
   --section-spacing: 32px;
-  --section-padding: 20px;
+  --section-padding: 14px;
   --section-heading-spacing: 16px;
 
-  --card-padding: 18px;
+  --card-padding: 14px;
   --card-gap: 12px;
 
   --list-gap: 8px;
@@ -73,15 +68,15 @@
   --form-gap: 14px;
   --field-gap: 6px;
 
-  --control-padding-y: 11px;
-  --control-padding-x: 14px;
+  --control-padding-y: 6px;
+  --control-padding-x: 12px;
 
   /* Border radius */
-  --radius-small: 8px;
-  --radius-control: 10px;
-  --radius-row: 12px;
-  --radius-card: 16px;
-  --radius-large: 18px;
+  --radius-small: 6px;
+  --radius-control: 8px;
+  --radius-row: 10px;
+  --radius-card: 12px;
+  --radius-large: 16px;
   --radius-pill: 999px;
 
   /* Effects */
@@ -131,6 +126,10 @@ button:disabled {
   cursor: not-allowed;
 }
 
+h2 {
+  font-size: 1.05rem;
+}
+
 h1,
 h2,
 h3,
@@ -174,8 +173,13 @@ header b {
 
 nav {
   display: flex;
+  width: 100%;
   align-items: center;
   gap: var(--space-2);
+}
+
+#login-button {
+    margin-left: auto;
 }
 
 main {
